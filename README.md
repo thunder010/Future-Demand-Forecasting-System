@@ -158,6 +158,14 @@ streamlit run app.py
 
 ---
 
+## 🌐 Live Demo
+
+Explore the interactive Future Demand Forecasting Dashboard:
+
+👉 **https://future-demand-forecasting-system.onrender.com**
+
+---
+
 ## 📌 Future Improvements
 
 - Real-time demand prediction using continuously retrained models
