@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-
+import numpy as np
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -126,7 +126,12 @@ if not cat_backtest.empty and not cat_actual.empty:
                       on="date", how="inner")
 
     if len(merged) > 0:
-        rmse = mean_squared_error(merged["actual_qty"], merged["pred_qty"], squared=False)
+        rmse = np.sqrt(
+            mean_squared_error(
+            merged["actual_qty"],
+            merged["pred_qty"]
+            )
+        )
         mae = mean_absolute_error(merged["actual_qty"], merged["pred_qty"])
 
         col1, col2 = st.columns(2)
