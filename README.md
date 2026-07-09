@@ -2,8 +2,6 @@
 
 A machine learning-based demand forecasting system developed using **LightGBM** and **Streamlit** to predict future product demand across multiple product categories using historical sales data. The project leverages **46.7+ million Flipkart transaction records** (April–July 2022) and provides an interactive dashboard for comparing historical demand, model backtesting, and future demand forecasts to support inventory planning and decision-making.
 
-> This project was developed as an academic project at the **National Institute of Technology Calicut, Department of Computer Science**, under the guidance of **Vidhya Kamakshi** and **Pournami P.N.** See [`ML_Project_Report.pdf`](./ML_Project_Report.pdf) for the full methodology and write-up.
-
 ---
 
 ## 🚀 Features
@@ -173,13 +171,10 @@ streamlit run app.py
 
 **Kevalsinh Kumpavat**
 
-Department of Computer Science, National Institute of Technology Calicut
-Under the guidance of **Vidhya Kamakshi** and **Pournami P.N.**
-
 GitHub: https://github.com/thunder010
 
 ---
 
-## 📄 License
+⭐ Support
 
-This project is intended for educational and research purposes.
+If you found this project helpful, consider giving it a ⭐ Star on GitHub!
