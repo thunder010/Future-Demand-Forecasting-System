@@ -12,7 +12,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 # PAGE CONFIGURATION
 
 st.set_page_config(
-    page_title="AI Demand Forecast Dashboard (Dark Mode)",
+    page_title="Future Demand Forecasting",
+    page_icon="📈",
     layout="wide"
 )
 
